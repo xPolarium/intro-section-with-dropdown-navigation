@@ -176,6 +176,14 @@ body {
 	border: none;
 }
 
+.hero__content button:hover {
+	cursor: pointer;
+	border: 1px solid var(--clr-black);
+	border-radius: 0.7rem;
+	color: var(--clr-black);
+	background-color: var(--clr-white);
+}
+
 .clients {
 	display: flex;
 	float: left;
